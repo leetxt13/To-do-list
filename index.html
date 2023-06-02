@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping App practice</title>
+    <script
+      src="https://kit.fontawesome.com/3f66ef61be.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <header class="header">To-Do List</header>
+      <ul class="item__list">
+        <div class="item__box" data-id="1">
+          <li class="item__row">
+            <span class="item__name">1. 편의점 가기</span>
+            <button class="item__delete" data-id="1">
+              <i class="fa-solid fa-trash-can" data-id="1"></i>
+            </button>
+          </li>
+          <div class="item__divider"></div>
+        </div>
+      </ul>
+      <footer class="footer">
+        <input type="text" placeholder="해야할 일을 적어보세요" />
+        <button class="footer__button"><i class="fa-solid fa-plus"></i></button>
+      </footer>
+    </section>
+  </body>
+</html>
